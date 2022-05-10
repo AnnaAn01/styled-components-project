@@ -1,4 +1,4 @@
-import { StyledHeader, Nav, Logo } from "./styles/Header.styled";
+import { StyledHeader, Nav, Logo, Image } from "./styles/Header.styled";
 import { Container } from "./styles/Container.styled";
 import { Button } from "./styles/Button.styled";
 import { Flex } from "./styles/Flex.styled";
@@ -24,6 +24,8 @@ export default function Header() {
               Get Started For Free
             </Button>
           </div>
+
+          <Image src="./images/illustration-mockups.svg" />
         </Flex>
         <h1>Hubble</h1>
       </Container>
