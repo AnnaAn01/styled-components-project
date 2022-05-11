@@ -27,7 +27,7 @@ export default function Header() {
 
           <Image src="./images/illustration-mockups.svg" />
         </Flex>
-        <h1>Hubble</h1>
+        <h1></h1>
       </Container>
     </StyledHeader>
   );

@@ -15,4 +15,9 @@ flex-basis : 0;   ➜ The div does not have a starting value as such and will
   & > ul {
     flex: 1;
   }
+
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    flex-direction: column;
+    text-align: center;
+  }
 `;
